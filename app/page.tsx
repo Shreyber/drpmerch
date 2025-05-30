@@ -180,21 +180,21 @@ export default function DRPMerchStore() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-12 md:py-16" style="
-    background-image: /oka.jpg;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-">
+      <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-12 md:py-16" style={{
+  backgroundImage: 'url(/oka.jpg)',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center'
+}}>
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4" style="
-    color: aliceblue;
-"># D R P W R</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto px-4" style="
-    color: aliceblue;
-    background: rgb(0 0 0 / 56%);
-    font-family: monospace;
-">
+          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4" style={{
+  color: 'aliceblue'
+}}># D R P W R</h2>
+          <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto px-4" style={{
+  color: 'aliceblue',
+  background: 'rgba(0, 0, 0, 0.56)',
+  fontFamily: 'monospace'
+}}>
             Носи воспоминания о лучших днях в лагере. Каждая вещь — частичка тех незабываемых моментов, песен у костра и
             дружбы, которая остаётся на всю жизнь. Твоя история. Твой лагерь. Твой стиль.
           </p>
