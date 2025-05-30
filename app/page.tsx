@@ -11,8 +11,8 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 const products = [
   {
     id: 1,
-    name: "Classic Logo Tee",
-    price: 2990,
+    name: "Футболка",
+    price: 1890,
     category: "t-shirts",
     image: "/placeholder.svg?height=400&width=400",
     colors: ["Black", "White", "Navy"],
@@ -20,7 +20,7 @@ const products = [
     description:
       "Легендарная футболка DRPMerch из премиального 100% хлопка. Мягкая, дышащая ткань обеспечивает комфорт на весь день. Стильный логотип подчеркнет ваш уникальный стиль. Идеально подходит для повседневной носки, тренировок и встреч с друзьями.",
     images: [
-      "/placeholder.svg?height=400&width=400",
+      "/tshirt.jpg",
       "/placeholder.svg?height=400&width=400",
       "/placeholder.svg?height=400&width=400",
     ],
@@ -181,9 +181,6 @@ export default function DRPMerchStore() {
             Носи воспоминания о лучших днях в лагере. Каждая вещь — частичка тех незабываемых моментов, песен у костра и
             дружбы, которая остаётся на всю жизнь. Твоя история. Твой лагерь. Твой стиль.
           </p>
-          <Button size="lg" className="px-8">
-            Смотреть каталог
-          </Button>
         </div>
       </section>
 
