@@ -14,7 +14,7 @@ const products = [
     name: "Футболка",
     price: 1890,
     category: "t-shirts",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/tshirt.jpg",
     colors: ["Black", "White", "Navy"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     description:
@@ -30,7 +30,7 @@ const products = [
     name: "Vintage Cap",
     price: 1990,
     category: "caps",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/cap.jpg",
     colors: ["Black", "Khaki", "Navy"],
     sizes: ["One Size"],
     description:
@@ -42,55 +42,58 @@ const products = [
     name: "Premium Hoodie",
     price: 5990,
     category: "hoodies",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/hoodie.jpg",
     colors: ["Gray", "Black", "Maroon"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
       "Роскошная толстовка из смесового хлопка с флисовой подкладкой. Невероятно мягкая и теплая, она станет вашей любимой вещью в гардеробе. Современный крой подчеркивает силуэт, а качественные материалы гарантируют долговечность. Идеальна для прохладных вечеров и активного отдыха.",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "/hoodie-2.jpg",
+      "/hoodie-3.jpg",
+      "/hoodie-4.jpg",
     ],
   },
   {
     id: 4,
-    name: "Snapback Hat",
+    name: "Шопер",
     price: 2490,
-    category: "caps",
-    image: "/placeholder.svg?height=400&width=400",
+    category: "accessories",
+    image: "/bag.jpg",
     colors: ["Black", "White", "Red"],
     sizes: ["One Size"],
     description:
-      "Дерзкая снэпбэк кепка с плоским козырьком для настоящих ценителей уличной моды. Структурированная передняя панель держит форму, а сетчатая задняя часть обеспечивает вентиляцию. Регулируемая застежка позволяет найти идеальную посадку. Выделяйтесь из толпы с этим стильным аксессуаром!",
-    images: ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "Культовая сумка-шоппер из прочного хлопкового канваса с фирменным принтом лагеря. Просторное основное отделение легко вместит все необходимое — от пляжных принадлежностей до походного набора. Внутренний карман на молнии надежно сохранит ваши ценности, а усиленные ручки выдержат любые приключения. Эта сумка — идеальный компаньон для тех, кто всегда готов к новым открытиям, как в те беззаботные дни в лагере. Носите с собой частичку лагерного духа каждый день!",
+    images: [
+      "/bag.jpg", 
+      "/bag-2.jpg",
+    ],
   },
   {
     id: 5,
-    name: "Graphic Tee",
+    name: "Бомбер",
     price: 3490,
-    category: "t-shirts",
-    image: "/placeholder.svg?height=400&width=400",
+    category: "bomber",
+    image: "/bomber.jpg",
     colors: ["White", "Black", "Blue"],
     sizes: ["XS", "S", "M", "L", "XL"],
     description:
-      "Эксклюзивная футболка с авторским графическим принтом от DRPMerch. Яркий дизайн создан нашими художниками специально для тех, кто не боится выражать себя. Высококачественная печать не выцветает и не трескается. Станьте частью творческого сообщества DRPMerch!",
-    images: ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "Культовый бомбер, вдохновленный традицией вечерних посиделок у костра. Изготовлен из премиального хлопка с добавлением эластана для идеальной посадки. Утепленная подкладка сохранит тепло в прохладные вечера, как те самые лагерные костры. Фирменная вышивка "#DRPWR" на груди и нашивка лагеря на рукаве напомнят о беззаботных днях и песнях под гитару. Практичные карманы на кнопках, эластичные манжеты и воротник-стойка — этот бомбер сочетает в себе ностальгию и современный стиль. Для тех, кто хранит лагерный дух в сердце.",
+    images: ["/bomber.jpg", "/placeholder.svg?height=400&width=400"],
   },
   {
     id: 6,
-    name: "Zip-up Hoodie",
+    name: "Жилетка",
     price: 5490,
-    category: "hoodies",
-    image: "/placeholder.svg?height=400&width=400",
+    category: "jackets",
+    image: "/jacket.jpg",
     colors: ["Black", "Gray", "Navy"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
-      "Универсальная толстовка на молнии премиум-класса. Японская молния YKK гарантирует плавное скольжение и долговечность. Два глубоких кармана для рук и внутренний карман для телефона. Идеальный баланс стиля и функциональности для активной городской жизни.",
+      "Элегантная жилетка в лагерном стиле, вдохновленная формой вожатых и капитанов команд. Изготовлена из плотного хлопкового твила с водоотталкивающей пропиткой — выдержит и утреннюю росу, и внезапный летний дождь. Классический крой с двумя накладными карманами и декоративными пуговицами с якорями отсылает к традициям лагерных линеек и парадов. Внутренняя подкладка с принтом карты лагеря — секретный элемент для настоящих ценителей. Эта жилетка — символ лидерства и командного духа, который останется с вами на долгие годы после последнего лагерного звонка.",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "/jacket.jpg",
+      "/jacket-2.jpg",
+      "/jacket-3.jpg",
     ],
   },
   {
@@ -124,6 +127,9 @@ const categories = [
   { value: "t-shirts", label: "Футболки" },
   { value: "caps", label: "Кепки" },
   { value: "hoodies", label: "Худи" },
+  { value: "sweatshirts", label: "Свитшоты" },
+  { value: "bomber", label: "Бомберы" },
+  { value: "jackets", label: "Жилетки" },
   { value: "accessories", label: "Аксессуары" },
 ]
 
@@ -174,10 +180,21 @@ export default function DRPMerchStore() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-12 md:py-16">
+      <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-12 md:py-16" style="
+    background-image: /oka.jpg;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4"># D R P W R</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4" style="
+    color: aliceblue;
+"># D R P W R</h2>
+          <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto px-4" style="
+    color: aliceblue;
+    background: rgb(0 0 0 / 56%);
+    font-family: monospace;
+">
             Носи воспоминания о лучших днях в лагере. Каждая вещь — частичка тех незабываемых моментов, песен у костра и
             дружбы, которая остаётся на всю жизнь. Твоя история. Твой лагерь. Твой стиль.
           </p>
