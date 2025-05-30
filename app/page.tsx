@@ -26,7 +26,7 @@ const products = [
     ],
   },
   {
-    id: 2,
+    id: 6,
     name: "Vintage Cap",
     price: 1990,
     category: "caps",
@@ -35,10 +35,10 @@ const products = [
     sizes: ["One Size"],
     description:
       "Винтажная кепка в стиле 90-х с регулируемым ремешком. Изготовлена из прочного хлопкового твила, который становится только лучше со временем. Классический дизайн дополнит любой образ - от спортивного до кэжуал. Защитит от солнца и добавит харизмы вашему стилю.",
-    images: ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+    images: ["/cap.jpg", "/placeholder.svg?height=400&width=400"],
   },
   {
-    id: 3,
+    id: 2,
     name: "Premium Hoodie",
     price: 5990,
     category: "hoodies",
@@ -54,7 +54,7 @@ const products = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     name: "Шопер",
     price: 2490,
     category: "accessories",
@@ -69,7 +69,7 @@ const products = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     name: "Бомбер",
     price: 3490,
     category: "bomber",
@@ -81,7 +81,7 @@ const products = [
     images: ["/bomber.jpg", "/placeholder.svg?height=400&width=400"],
   },
   {
-    id: 6,
+    id: 5,
     name: "Жилетка",
     price: 5490,
     category: "jackets",
@@ -181,7 +181,7 @@ export default function DRPMerchStore() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-12 md:py-16" style={{
-  backgroundImage: 'url(/oka.jpg)',
+  backgroundImage: 'url(/oka.png)',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
   backgroundPosition: 'center'
