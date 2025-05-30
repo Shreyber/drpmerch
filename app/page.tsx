@@ -26,23 +26,11 @@ const products = [
     ],
   },
   {
-    id: 6,
-    name: "Vintage Cap",
-    price: 1990,
-    category: "caps",
-    image: "/cap.jpg",
-    colors: ["Black", "Khaki", "Navy"],
-    sizes: ["One Size"],
-    description:
-      "Винтажная кепка в стиле 90-х с регулируемым ремешком. Изготовлена из прочного хлопкового твила, который становится только лучше со временем. Классический дизайн дополнит любой образ - от спортивного до кэжуал. Защитит от солнца и добавит харизмы вашему стилю.",
-    images: ["/cap.jpg", "/placeholder.svg?height=400&width=400"],
-  },
-  {
     id: 2,
     name: "Premium Hoodie",
     price: 5990,
     category: "hoodies",
-    image: "/hoodie.jpg",
+    image: "/hoodie-4.jpg",
     colors: ["Gray", "Black", "Maroon"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
@@ -50,7 +38,7 @@ const products = [
     images: [
       "/hoodie-2.jpg",
       "/hoodie-3.jpg",
-      "/hoodie-4.jpg",
+      "/hoodie.jpg",
     ],
   },
   {
@@ -95,6 +83,18 @@ const products = [
       "/jacket-2.jpg",
       "/jacket-3.jpg",
     ],
+  },
+  {
+    id: 6,
+    name: "Vintage Cap",
+    price: 1990,
+    category: "caps",
+    image: "/cap.jpg",
+    colors: ["Black", "Khaki", "Navy"],
+    sizes: ["One Size"],
+    description:
+      "Винтажная кепка в стиле 90-х с регулируемым ремешком. Изготовлена из прочного хлопкового твила, который становится только лучше со временем. Классический дизайн дополнит любой образ - от спортивного до кэжуал. Защитит от солнца и добавит харизмы вашему стилю.",
+    images: ["/cap.jpg", "/placeholder.svg?height=400&width=400"],
   },
   {
     id: 7,
