@@ -367,7 +367,7 @@ export default function DRPMerchStore() {
 							/>
 
 							{/* Текст */}
-							<motion.div style={{ y: positionY }}>
+							<motion.div style={{ y: positionY, flexGrow: 1, alignContent: "center" }}>
 								<motion.div className="relative z-10 text-center text-white px-4"
 									initial={{ opacity: 0 }}
 									animate={{ opacity: 1 }}
@@ -389,7 +389,7 @@ export default function DRPMerchStore() {
 									</p>
 								</motion.div>
 							</motion.div>
-							<motion.div className="absolute bottom-10 -translate-x-1/2 text-white z-10"
+							<motion.div className="relative text-white z-10"
 								initial={{ opacity: 0 }}
 								animate={{ opacity: 1, scale: [1, 1.2, 1] }}
 								transition={{
@@ -399,6 +399,7 @@ export default function DRPMerchStore() {
 										repeat: 5,
 									}
 								}}
+								style={{ bottom: "6vh" }}
 							>
 								{/* Scroll Down Button */}
 								<button
