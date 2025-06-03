@@ -27,7 +27,7 @@ export default function ProductModal({ product, onClose }: Props) {
     }
 
     return (
-        <Dialog open={!!product} onOpenChange={onClose}>
+        <Dialog open={!!product} onOpenChange={() => { onClose(); setCurrentImageIndex(0) }}>
             <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto"
                 style={{ fontFamily: "Comfortaa" }}>
                 {product && (
