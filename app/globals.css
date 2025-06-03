@@ -12,6 +12,21 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+@font-face {
+  font-family: "DaysSans";
+  src: url("/fonts/dayssansblack.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -5,7 +5,7 @@ import { ArrowDownCircle } from "lucide-react"
 import { smoothScrollTo } from "@/lib/smoothScrollTo"
 import { easeOutCubic } from "@/lib/easingFunctions"
 
-export default function Hero({ contentRef, ...props }: { contentRef: React.RefObject<HTMLDivElement> }) {
+export default function Hero({ contentRef }: { contentRef: React.RefObject<HTMLDivElement> }) {
 
     const heroRef = useRef(null)
     const { scrollYProgress } = useScroll({
@@ -79,7 +79,7 @@ export default function Hero({ contentRef, ...props }: { contentRef: React.RefOb
                     animate={{ opacity: 1 }}
                     transition={{ duration: 3, delay: 1 }}
                 >
-                    <h1 className="text-4xl md:text-6xl font-bold drop-shadow mb-6">
+                    <h1 className="text-4xl md:text-6xl font-bold drop-shadow mb-6" style={{ textAlignLast: "justify" }}>
                         # D R P R P B L C
                     </h1>
                 </motion.div>

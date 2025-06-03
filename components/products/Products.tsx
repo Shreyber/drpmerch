@@ -6,9 +6,9 @@ import { products } from "./data"
 import ProductFilters from "./ProductFilters"
 import ProductModal from "./ProductModal"
 import ProductCard from "./ProductCard"
+import ComingSoon from "@/components/ui-kit/ComingSoon"
 
-
-export default function Products({ ...props }) {
+export default function Products({ elementRef }: { elementRef: React.RefObject<HTMLElement> }) {
     const [selectedCategory, setSelectedCategory] = useState("all")
     const [selectedProduct, setSelectedProduct] = useState<(typeof products)[0] | null>(null)
     const [scrolled, setScrolled] = useState(false)
@@ -34,13 +34,14 @@ export default function Products({ ...props }) {
 
     return (<>
         <motion.section
-            {...props}
+            ref={elementRef}
             className="container mx-auto px-4 py-6 md:py-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: scrolled ? 1 : 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
         >
-            <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 md:mb-8 space-y-4 md:space-y-0">
+            <ComingSoon />
+            <div className="flex flex-col md:flex-row md:items-center justify-between py-6 md:py-8 space-y-4 md:space-y-0">
                 <h3 className="text-xl md:text-2xl font-semibold">Наши товары</h3>
                 <ProductFilters selected={selectedCategory} onChange={setSelectedCategory} />
             </div>

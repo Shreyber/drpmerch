@@ -59,7 +59,7 @@ export default function DRPMerchStore() {
 					}}
 				>
 					<Hero contentRef={contentRef} />
-					<Products ref={contentRef} />
+					<Products elementRef={contentRef} />
 					<Footer />
 				</motion.div>
 			)}
