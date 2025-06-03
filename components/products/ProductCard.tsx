@@ -32,7 +32,7 @@ export default function ProductCard({ product, onClick, ...props }: Props) {
                             </Badge>
                         ))}
                         {product.colors.length > 3 && (
-                            <Badge variant="secondary" className="text-xs">
+                            <Badge variant="secondary" className="text-xs" style={{ backgroundColor: "#EAEAEA" }}>
                                 +{product.colors.length - 3}
                             </Badge>
                         )}
