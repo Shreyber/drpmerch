@@ -48,7 +48,7 @@ export default function LoadingScreen({ onReady }: Props) {
                 animate={{ opacity: 0, scale: 1 }}
                 transition={{ duration: 4, delay: 1 }}
                 className="flex items-center justify-center flex-col text-center">
-                <h1 className="text-2xl md:text-4xl font-bold mb-4">Погружаемся в детство</h1>
+                <h1 className="text-2xl md:text-4xl font-bold mb-4" style={{ fontFamily: "Comfortaa"}}>Погружаемся в детство</h1>
                 <TentIcon />
             </motion.div>
         </motion.div>

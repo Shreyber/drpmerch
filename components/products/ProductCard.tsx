@@ -11,7 +11,7 @@ export default function ProductCard({ product, onClick, ...props }: Props) {
         <Card
             className="group hover:shadow-lg transition-shadow cursor-pointer"
             onClick={onClick}
-            style={{ backgroundColor: "#F8F8F8" }}
+            style={{ backgroundColor: "#F8F8F8", fontFamily: "Comfortaa" }}
             {...props}
         >
             <CardContent className="p-0">
@@ -23,7 +23,7 @@ export default function ProductCard({ product, onClick, ...props }: Props) {
                     />
                 </div>
                 <div className="p-3 md:p-4">
-                    <h4 className="font-semibold text-base md:text-lg mb-2 line-clamp-2">{product.name}</h4>
+                    <h4 className="font-bold text-base md:text-lg mb-2 line-clamp-2">{product.name}</h4>
 
                     <div className="flex flex-wrap gap-1 mb-3">
                         {product.colors.slice(0, 3).map((color) => (
@@ -39,7 +39,7 @@ export default function ProductCard({ product, onClick, ...props }: Props) {
                     </div>
 
                     <div className="flex items-center justify-between">
-                        <span className="text-xl md:text-2xl font-bold">{product.price} ₽</span>
+                        <span className="text-xl md:text-2xl font-bold font-sans">{product.price} ₽</span>
                     </div>
                 </div>
             </CardContent>

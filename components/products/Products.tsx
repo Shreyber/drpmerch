@@ -39,10 +39,11 @@ export default function Products({ elementRef }: { elementRef: React.RefObject<H
             initial={{ opacity: 0 }}
             animate={{ opacity: scrolled ? 1 : 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
+            style={{ fontFamily: "Comfortaa" }}
         >
             <ComingSoon />
             <div className="flex flex-col md:flex-row md:items-center justify-between py-6 md:py-8 space-y-4 md:space-y-0">
-                <h3 className="text-xl md:text-2xl font-semibold">Наши товары</h3>
+                <h3 className="text-xl md:text-2xl font-bold">Наши товары</h3>
                 <ProductFilters selected={selectedCategory} onChange={setSelectedCategory} />
             </div>
 

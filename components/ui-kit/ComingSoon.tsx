@@ -2,9 +2,10 @@ import "./comingSoon.css"
 
 export default function ComingSoon() {
     return (
-        <section className="flex flex-col items-center justify-center text-center py-4">
+        <section className="flex flex-col items-center justify-center text-center py-4"
+        style={{ borderBottom: "1px solid lightgray"}}>
 
-            <div className="relative inline-block rounded-lg overflow-hidden mb-4" >
+            <div className="relative inline-block rounded-lg overflow-hidden mb-4 max-w-sm md:max-w-2xl" >
                 {/* Фоновый прямоугольник */}
                 <div className="absolute inset-0 scrolling-text" />
                 <div className="absolute inset-0 bg-black" style={{ opacity: 0.2 }} />
@@ -14,7 +15,7 @@ export default function ComingSoon() {
                     Скоро здесь появится новая коллекция
                 </h2>
             </div>
-            <p className="text-md md:text-lg text-gray-800" style={{ fontFamily: "Manrope", fontWeight: 400 }}>
+            <p className="text-md md:text-lg text-gray-800" style={{ fontFamily: "Comfortaa", fontWeight: 400 }}>
                 Следите за новостями — мы готовим что-то особенное для вас.
             </p>
 

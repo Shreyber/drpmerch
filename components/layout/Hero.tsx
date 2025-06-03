@@ -79,16 +79,17 @@ export default function Hero({ contentRef }: { contentRef: React.RefObject<HTMLD
                     animate={{ opacity: 1 }}
                     transition={{ duration: 3, delay: 1 }}
                 >
-                    <h1 className="text-4xl md:text-6xl font-bold drop-shadow mb-6" style={{ textAlignLast: "justify" }}>
+                    <h1 className="text-4xl md:text-6xl font-bold drop-shadow mb-6" style={{ textAlignLast: "justify", fontFamily: "Schollbell", color: "#FFF8F0" }}>
                         # D R P R P B L C
                     </h1>
                 </motion.div>
-                <motion.div className="relative z-10 text-center text-white px-4"
+                <motion.div className="relative z-10 text-center px-4"
                     initial={{ opacity: 0, y: 25 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.5, delay: 1 }}
                 >
-                    <p className="text-md md:text-xl bg-black/50 p-4 rounded max-w-xl mx-auto font-mono">
+                    <p className="text-md md:text-xl bg-black/50 p-4 rounded max-w-xl mx-auto"
+                    style={{ fontFamily: "Comfortaa", color: "#FFF8F0"}}>
                         Носи воспоминания о лучших днях в лагере. Каждая вещь — частичка тех незабываемых моментов, песен у костра и
                         дружбы, которая остаётся на всю жизнь. Твоя история. Твой лагерь. Твой стиль.
                     </p>

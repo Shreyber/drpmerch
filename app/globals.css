@@ -21,9 +21,24 @@ body::-webkit-scrollbar {
 }
 
 @font-face {
+  font-family: "Schollbell";
+  src: url("/fonts/Schoolbell-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Manrope";
   src: url("/fonts/Manrope-VariableFont_wght.ttf") format("truetype-variations");
   font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("/fonts/Comfortaa-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 300 700;
   font-display: swap;
 }
 

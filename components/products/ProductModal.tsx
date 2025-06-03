@@ -28,11 +28,12 @@ export default function ProductModal({ product, onClose }: Props) {
 
     return (
         <Dialog open={!!product} onOpenChange={onClose}>
-            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto"
+                style={{ fontFamily: "Comfortaa" }}>
                 {product && (
                     <>
                         <DialogHeader>
-                            <DialogTitle className="text-xl md:text-2xl">{product.name}</DialogTitle>
+                            <DialogTitle className="text-xl md:text-2xl font-bold">{product.name}</DialogTitle>
                         </DialogHeader>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
@@ -90,13 +91,13 @@ export default function ProductModal({ product, onClose }: Props) {
                             {/* Product Info */}
                             <div className="space-y-6">
                                 <div>
-                                    <p className="text-3xl font-bold mb-4">{product.price} ₽</p>
-                                    <p className="text-muted-foreground leading-relaxed">{product.description}</p>
+                                    <p className="text-3xl font-bold font-sans mb-4">{product.price} ₽</p>
+                                    <p className="text-[#444] leading-relaxed">{product.description}</p>
                                 </div>
 
                                 {/* Colors */}
                                 <div>
-                                    <h4 className="font-semibold mb-3">Доступные цвета:</h4>
+                                    <h4 className="font-bold mb-3">Доступные цвета:</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {product.colors.map((color) => (
                                             <Badge key={color} variant="outline" className="px-3 py-1">
@@ -108,7 +109,7 @@ export default function ProductModal({ product, onClose }: Props) {
 
                                 {/* Sizes */}
                                 <div>
-                                    <h4 className="font-semibold mb-3">Размеры:</h4>
+                                    <h4 className="font-bold mb-3">Размеры:</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {product.sizes.map((size) => (
                                             <Badge key={size} variant="outline" className="px-3 py-1">
